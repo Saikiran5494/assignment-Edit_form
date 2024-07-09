@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+}
+.create-post-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(161, 225, 243);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0.3px;
+    width: 50%;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+input{
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 6px;
+    border-radius: 6px;
+    outline: none;
+    width: 80%;
+    border: 1px solid rgb(164, 164, 241);
+}
+select{
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 6px;
+    outline: none;
+    border: 1px solid rgb(164, 164, 241);
+    width: 80%;
+    border-radius: 6px;
+}
+option{
+    font-size: 15px;
+}
+.button-create{
+    color: #fff;
+    background-color: rgb(1, 84, 1);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 200px;
+    cursor: pointer;
+}
+span{
+    color: red;
+    margin-left: 5px;
+}
+.required{
+    color: red;
+    margin: 0;
+    font-size: 13px;
+}
+.back-button{
+    color: #fff;
+    background-color: #354635;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+
+
+@media screen and (max-width: 576px){
+    .create-post-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        font-size: 15px;
+    }
+    .form-container{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        background-color: rgb(161, 225, 243);
+        border-radius: 7px;
+        box-shadow: 0px 0px 5px 0.3px;
+        width: 50%;
+    }
+    label{
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+    input{
+        padding: 4px;
+        font-size: 10px;
+        margin-top: 4px;
+        border-radius: 4px;
+        outline: none;
+        width: 50%;
+        border: 1px solid rgb(164, 164, 241);
+    }
+    select{
+        font-size: 10px;
+        padding: 5px;
+        margin-top: 6px;
+        outline: none;
+        border: 1px solid rgb(164, 164, 241);
+        width: 50%;
+        border-radius: 6px;
+    }
+    option{
+        font-size: 10px;
+    }
+    .button-create{
+        color: #fff;
+        background-color: rgb(1, 84, 1);
+        font-size: 10px;
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 6px;
+        margin-top: 10px;
+        margin-right: 20px;
+        width: 100px;
+        cursor: pointer;
+    }
+    span{
+        color: red;
+        margin-left: 5px;
+    }
+    .required{
+        color: red;
+        margin: 0;
+        font-size: 10px;
+    }
+    .back-button{
+        color: #fff;
+        background-color: #354635;
+        font-size: 10px;
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 6px;
+        margin-top: 10px;
+        margin-right: 20px;
+        cursor: pointer;
+        
+    }
+    .button2{
+        color: #fff;
+        background-color: blue;
+        font-size: 10px;
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 6px;
+        margin-top: 10px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    .back-icon{
+        font-size: 10px;
+        padding-top: 0px;
+      }
+}
+
+@media screen and (min-width:992px){
+    .create-post-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .form-container{
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        background-color: rgb(161, 225, 243);
+        border-radius: 12px;
+        box-shadow: 0px 0px 5px 0.3px;
+        width: 60%;
+    }
+    label{
+        font-size: 23px;
+        font-weight: bold;
+        margin-top: 18px;
+    }
+    input{
+        padding: 8px;
+        font-size: 18px;
+        margin-top: 8px;
+        border-radius: 8px;
+        outline: none;
+        width: 85%;
+        border: 1px solid rgb(164, 164, 241);
+    }
+    select{
+        font-size: 18px;
+        padding: 8px;
+        margin-top: 8px;
+        outline: none;
+        border: 1px solid rgb(164, 164, 241);
+        width: 85%;
+        border-radius: 8px;
+    }
+    option{
+        font-size: 18px;
+    }
+    .button-create{
+        color: #fff;
+        background-color: rgb(1, 84, 1);
+        font-size: 18px;
+        font-weight: bold;
+        padding: 13px;
+        border-radius: 13px;
+        margin-top: 24px;
+        margin-right: 25px;
+        width: 250px;
+        cursor: pointer;
+    }
+    span{
+        color: red;
+        margin-left: 7px;
+    }
+    .required{
+        color: red;
+        margin: 0;
+        font-size: 15px;
+    }
+    .back-button{
+        color: #fff;
+        background-color: #354635;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 14px;
+        margin-top: 23px;
+        margin-right: 24px;
+        cursor: pointer;
+        
+    }
+    .button2{
+        color: #fff;
+        background-color: blue;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 14px;
+        margin-top: 23px;
+        margin-right: 24px;
+        cursor: pointer;
+    }
+    
+    
+}
